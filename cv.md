@@ -1,8 +1,9 @@
-#Morgunov Alexander#
+# Morgunov Alexander
+
 **_tel. +7(952)540-35-70_**
 **_email: morgunowaleks@yandex.ru_**
 
-##A little bit about yourself:##
+## A little bit about yourself:
 
 In december 2020 i completed a course received a diploma on _"Introduction to Web Development in JavaScript"_ from ANO DPO "SoftLine Education
 Also is 2020 i completed a course on the Stepic.org platform on the topic _"Fundamentals of Programming"_, in which he studied the basics of the C # language.
