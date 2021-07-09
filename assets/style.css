@@ -1,0 +1,19 @@
+body {
+  text-align: center;
+  font: 15px calibri;
+}
+.photoAvatar {
+  width: 15%;
+  height: 15%;
+}
+.hedername {
+  font: bold 250% Arial;
+}
+.contacts a {
+  text-decoration: none;
+  font: italic 15px Arial;
+  color: black;
+}
+hr {
+  border-width: 3px;
+}
