@@ -1,19 +1,62 @@
 body {
   text-align: center;
-  font: 15px calibri;
+  font: 150%/150% calibri;
+}
+header {
+  width: 100%;
+  background-color: rgb(198, 244, 255);
 }
 .photoAvatar {
-  width: 15%;
-  height: 15%;
+  width: 14%;
+  height: 14%;
 }
 .hedername {
   font: bold 250% Arial;
 }
-.contacts a {
+a {
   text-decoration: none;
-  font: italic 15px Arial;
+  font: italic 80% Arial;
   color: black;
 }
+@keyframes color-change {
+  0% {
+    color: rgb(66, 65, 65);
+  }
+  30% {
+    color: rgb(100, 100, 228);
+  }
+  60% {
+    color: rgb(86, 180, 86);
+  }
+  90% {
+    color: black;
+  }
+}
+.shine > a {
+  animation: color-change 10s infinite;
+}
 hr {
-  border-width: 3px;
+  border: solid 1px #fffffff1;
+}
+
+.wrapper {
+  position: relative;
+  min-height: 100%;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(198, 244, 255);
+}
+.footerLogoRss {
+  width: 10%;
+  height: 10%;
 }
