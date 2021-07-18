@@ -1,17 +1,19 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
 body {
   text-align: center;
   font: 150%/150% calibri;
 }
 header {
-  width: 100%;
   background-color: rgb(198, 244, 255);
+  margin-bottom: 5px;
+  padding: 5px;
 }
 .photoAvatar {
-  width: 14%;
-  height: 14%;
-}
-.hedername {
-  font: bold 250% Arial;
+  width: 130px;
+  height: 130px;
 }
 a {
   text-decoration: none;
@@ -35,14 +37,9 @@ a {
 .shine > a {
   animation: color-change 10s infinite;
 }
-hr {
-  border: solid 1px #fffffff1;
-}
-
 .wrapper {
-  position: relative;
-  min-height: 100%;
-  width: 100%;
+  min-height: 55vh;
+  padding: 5px;
 }
 
 ul {
@@ -53,10 +50,11 @@ footer {
   position: relative;
   left: 0;
   bottom: 0;
-  width: 100%;
   background-color: rgb(198, 244, 255);
+  margin-top: 5px;
+  padding: 5px;
 }
 .footerLogoRss {
-  width: 10%;
-  height: 10%;
+  width: 100px;
+  height: 100px;
 }
