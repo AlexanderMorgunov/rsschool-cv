@@ -46,9 +46,10 @@ header {
   padding: 5px 30px;
 }
 .wrapper > ul > li > section {
-  line-height: 124%;
+  line-height: 119%;
   font-size: 20px;
   padding: 5px;
+  border-bottom: solid rgb(209, 209, 209) 1px;
 }
 ul {
   list-style-type: none;
