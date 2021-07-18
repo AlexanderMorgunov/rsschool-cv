@@ -1,19 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 body {
   text-align: center;
   font: 150%/150% calibri;
 }
 header {
-  width: 100%;
   background-color: rgb(198, 244, 255);
+  margin-bottom: 5px;
+  padding: 5px;
+  border: solid rgb(209, 209, 209) 1px;
 }
 .photoAvatar {
-  width: 14%;
-  height: 14%;
+  width: 130px;
+  height: 130px;
+  border-radius: 100px; /* Радиус скругления */
+  box-shadow: 0 0 0 1px rgb(209, 209, 209), 0 0 10px rgb(95, 171, 190); /* Параметры теней */
 }
-.hedername {
-  font: bold 250% Arial;
-}
-a {
+.shine > a {
   text-decoration: none;
   font: italic 80% Arial;
   color: black;
@@ -35,16 +41,16 @@ a {
 .shine > a {
   animation: color-change 10s infinite;
 }
-hr {
-  border: solid 1px #fffffff1;
-}
-
 .wrapper {
-  position: relative;
-  min-height: 100%;
-  width: 100%;
+  min-height: 54vh;
+  padding: 5px 30px;
 }
-
+.wrapper > ul > li > section {
+  line-height: 119%;
+  font-size: 20px;
+  padding: 5px;
+  border-bottom: solid rgb(209, 209, 209) 1px;
+}
 ul {
   list-style-type: none;
 }
@@ -53,10 +59,12 @@ footer {
   position: relative;
   left: 0;
   bottom: 0;
-  width: 100%;
   background-color: rgb(198, 244, 255);
+  margin-top: 5px;
+  border: solid rgb(209, 209, 209) 1px;
+  padding-top: 5px;
 }
 .footerLogoRss {
-  width: 10%;
-  height: 10%;
+  width: 100px;
+  height: 100px;
 }
