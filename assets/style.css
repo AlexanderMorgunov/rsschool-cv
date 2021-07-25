@@ -42,8 +42,9 @@ header {
   animation: color-change 10s infinite;
 }
 .wrapper {
+  margin: 0 auto;
   min-height: 54vh;
-  padding: 5px 30px;
+  padding: 5px 35px;
 }
 .wrapper > ul > li > section {
   line-height: 119%;
