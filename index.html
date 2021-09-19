@@ -4,104 +4,196 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My CV</title>
     <link rel="stylesheet" href="assets/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css"
+    />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
+    <link
+      href="http://yastatic.net/highlightjs/8.2/styles/solarized_light.min.css"
+      rel="stylesheet"
+    />
+    <title>My CV</title>
   </head>
   <body>
-    <header>
-      <div>
-        <img
-          src="assets/images/avatar.png"
-          alt="avatarLogo"
-          class="photoAvatar"
-        />
-      </div>
-      <h1>Morgunov Alexander</h1>
-      <div class="shine">
-        tel.
-        <a href="tel:+7(952)540-35-70"> +7(952)540-35-70</a>
-        | email:
-        <a href="mailto:morgunowaleks@yandex.ru">morgunowaleks@yandex.ru</a> |
-        <a href="https://vk.com/id494710294">VK</a> | Voronezh
-      </div>
-    </header>
-    <main>
-      <div class="wrapper">
-        <ul>
-          <li>
-            <section>
-              <h3>A little bit about myself:</h3>
-              My name is Alexander Morgunov. I`m 33 years old. I`m married and i
-              have two children. I am a lawyer by education. I am well versed in
-              computer hardware.
-            </section>
-          </li>
-          <li>
-            <section>
-              <h3>Education:</h3>
-              Voronezh Institute of the Ministry of Internal Affairs of the
-              Russian Federation - 2014. Specialty - jurisprudence.
-            </section>
-          </li>
-          <li>
-            <section>
-              <h3>Completed courses</h3>
-              <ul>
-                <li>
-                  <a href="https://stepik.org/cert/394096"
-                    >C# Fundamentals of Programming</a
+    <div class="wrapper">
+      <aside>
+        <div class="side-bar">
+          <div class="photo">
+            <img
+              src="assets/images/avatar.png"
+              alt="photoAvatar"
+              class="photoAvatar"
+            />
+          </div>
+          <div class="contacts">
+            <h1>Morgunov Alexander</h1>
+            <ul>
+              <li class="shine">
+                tel. <a href="tel:+7(952)540-35-70"> +7(952)540-35-70</a>
+              </li>
+              <li class="shine">
+                email:
+                <a href="mailto:morgunowaleks@yandex.ru"
+                  >morgunowaleks@yandex.ru</a
+                >
+              </li>
+              <li class="shine">
+                <a href="https://vk.com/id494710294">VK</a> <br />
+              </li>
+              <li class="shine">
+                <a href="https://github.com/AlexanderMorgunov">github</a>
+                <br />
+              </li>
+            </ul>
+            Russia, Voronezh
+          </div>
+          <div class="header-log">
+            <nav class="page-nav">
+              <ul class="ul_site-nav">
+                <li class="page-nav_item">
+                  <a href="#AboutMySelf" class="page-nav_link"
+                    >A little bit about myself
+                  </a>
+                </li>
+                <li class="page-nav_item">
+                  <a href="#Education" class="page-nav_link">Education</a>
+                </li>
+                <li class="page-nav_item">
+                  <a href="#Completed_courses" class="page-nav_link"
+                    >Completed courses</a
                   >
                 </li>
-                <li>
-                  <a
-                    href="https://beonmax.com/certificates/0ab65e6786f8e97147e123d084d784a7/ru/"
-                  >
-                    Basics of HTML/CSS</a
+                <li class="page-nav_item">
+                  <a href="#Skills" class="page-nav_link">Skills</a>
+                </li>
+                <li class="page-nav_item">
+                  <a href="#Code_example" class="page-nav_link">Code example</a>
+                </li>
+                <li class="page-nav_item">
+                  <a href="#Work_experience" class="page-nav_link"
+                    >Work experience</a
                   >
                 </li>
-                <li>
-                  Also in december 2020 i completed a course on "Introduction to
-                  Web Development in JavaScript" from ANO DPO "SoftLine
-                  Education.
+                <li class="page-nav_item">
+                  <a href="#Recent_projects" class="page-nav_link"
+                    >Recent projects</a
+                  >
                 </li>
               </ul>
-            </section>
-          </li>
-          <li>
-            <section>
-              <h3>Skills:</h3>
-              HTML, CSS, GIT, JS, C#
-            </section>
-          </li>
-          <li>
-            <section>
-              <h3>English level:</h3>
-              A2
-            </section>
-          </li>
-          <li>
-            <section>
-              <h3>Work experience:</h3>
-              <ul>
-                <li>LLC Key Voronezh - shop assistant 2011-2013</li>
-                <li>LLC "DNS" - shop assistant 2013-2017</li>
-                <li>Softline-Trade JSC - sales manager 2017-present</li>
-                <li></li>
-              </ul>
-            </section>
-          </li>
-          <li>
-            <section>
-              <h3>In the end</h3>
-              <i>
-                I really want to change my profession and am ready to try hard.
-                I will be glad to find a place in your company</i
-              >🙂
-            </section>
-          </li>
-        </ul>
-      </div>
-    </main>
+            </nav>
+          </div>
+        </div>
+      </aside>
+      <main class="content-main">
+        <section>
+          <h3 id="AboutMySelf">A little bit about myself</h3>
+          <p>junior front-end javascript developer</p>
+          My name is Alexander Morgunov. I`am a beginner front-end developer.<br />
+          I`m 33 years old. I`m married and i have two children. <br />I have a
+          law degree, but I have always been attracted by IT, in particular
+          programming.
+        </section>
+        <section>
+          <h3 id="Education">Education</h3>
+          Voronezh Institute of the Ministry of Internal Affairs of the Russian
+          Federation. <br />
+          Year 2014. <br />Specialty - jurisprudence.
+        </section>
+        <section>
+          <h3>English level:</h3>
+          My level of English at the moment is A2.
+        </section>
+        <section>
+          <h3 id="Completed_courses">Completed courses</h3>
+          <ul>
+            <li>
+              <a href="https://stepik.org/cert/394096" target="_blank"
+                >C# Fundamentals of Programming</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://beonmax.com/certificates/0ab65e6786f8e97147e123d084d784a7/ru/"
+                target="_blank"
+              >
+                Basics of HTML/CSS</a
+              >
+            </li>
+            <li>
+              Also in december 2020 i completed a course on "Introduction to Web
+              Development in JavaScript" from ANO DPO "SoftLine Education.
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h3 id="Skills">Skills</h3>
+          HTML
+          <div class="progressbar">
+            <span style="width: 50%"></span>
+          </div>
+          CSS
+          <div class="progressbar">
+            <span style="width: 40%"></span>
+          </div>
+          GIT
+          <div class="progressbar">
+            <span style="width: 35%"></span>
+          </div>
+          JavaScript
+          <div class="progressbar">
+            <span style="width: 50%"></span>
+          </div>
+          C#
+          <div class="progressbar">
+            <span style="width: 20%"></span>
+          </div>
+        </section>
+        <section>
+          <h3 id="Code_example">Code example</h3>
+          <pre><code class="language-javascript"> 
+            function getParticipants(handshakes){
+              let i=1;
+              let count=0;
+              while(count &lt; handshakes){
+                count=+count+i;
+                i++;
+              }
+              return i;
+            }
+          </code></pre>
+        </section>
+
+        <section>
+          <h3 id="Work_experience">Work experience</h3>
+          <ul>
+            <li>LLC Key Voronezh - shop assistant 2011-2013</li>
+            <li>LLC "DNS" - shop assistant 2013-2017</li>
+            <li>Softline-Trade JSC - sales manager 2017-present</li>
+          </ul>
+        </section>
+        <section>
+          <h3 id="Recent_projects">Recent projects</h3>
+          <div class="whack-a-mole">
+            <a
+              href="https://rolling-scopes-school.github.io/alexandermorgunov-JSFEPRESCHOOL/whack-a-mole/"
+              target="_blank"
+              ><img src="assets/images/mole.jpg" alt="mole"
+            /></a>
+          </div>
+        </section>
+      </main>
+    </div>
     <footer>
       <a href="https://github.com/AlexanderMorgunov">
         <svg
