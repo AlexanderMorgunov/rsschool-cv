@@ -112,6 +112,16 @@ section ul > li > a {
   background: linear-gradient(45deg, #13547a, #80d0c7);
   align-items: center;
 }
+.icon-menu {
+  background-image: url(images/icon-menu.png);
+  display: none;
+  background-repeat: no-repeat;
+  width: 35px;
+  height: 30px;
+  background-color: #0000;
+  border: none;
+  cursor: pointer;
+}
 .page-nav {
   display: flex;
   width: 100%;
@@ -198,7 +208,92 @@ footer {
   .wrapper {
     display: block;
   }
+  .side-bar {
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+  }
+  .icon-menu {
+    display: block;
+  }
+
+  .icon-menu:hover {
+    display: block;
+  }
   .header-log {
-    /* display: none; */
+    display: none;
+  }
+  .active {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .whack-a-mole {
+    width: 320px;
+  }
+  .mole {
+    width: 300px;
+  }
+  .photoAvatar {
+    width: 100px;
+    height: 100px;
+  }
+  .contacts,
+  .content-main .page-nav_item > a {
+    font-size: 60%;
+    border: none;
+  }
+  .page-nav {
+    border: none;
+  }
+  .content-main > section > h3 {
+    font-size: 80%;
+  }
+  .page-nav_item {
+    padding: 0px;
+  }
+  .content-main > section > p {
+    font-size: 80%;
+  }
+  .content-main > section {
+    font-size: 80%;
+    line-height: 25px;
+  }
+  .progressbar {
+    height: 10px;
+  }
+  .hljs {
+    text-align: center;
+    line-height: 25px;
+  }
+  .page-nav_item > a {
+    font-size: 80%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .contacts,
+  .content-main .page-nav_item > a {
+    font-size: 50%;
+  }
+  .content-main > section > h3 {
+    font-size: 70%;
+  }
+  .content-main > section > p {
+    font-size: 70%;
+  }
+  .content-main > section {
+    font-size: 40%;
+  }
+  .progressbar {
+    height: 10px;
+  }
+  .page-nav_item > a {
+    font-size: 70%;
+  }
+  .side-bar {
+  }
+  .icon-menu {
+    margin-left: 15px;
   }
 }
